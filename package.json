@@ -1,0 +1,13 @@
+{
+  "name": "brother-label-printer",
+  "version": "0.0.1",
+  "description": "Create raster files to print via a Brother label printer",
+  "main": "lib/brother.js",
+  "author": "Dennis Riehle",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "ipp": "^2.0.1",
+    "pngparse": "^2.0.1",
+    "util": "^0.11.1"
+  }
+}
