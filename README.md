@@ -9,13 +9,13 @@ A node.js library to print labels on a Brother label printer using the [Internet
 First, you will need the IP address of your printer. The port for IPP is usually `631` and the path is usually `/ipp/print`. Please refer to your printer's manual for further information. Next, you will need a PNG file to print. Currently, PNG is the only file format supported by this library.
 
 ```javascript
-const brother = require('../index.js');
+const brother = require('node-brother-label-printer');
 const printerUrl = 'http://192.168.178.71:631/ipp/print';
 
-brother.printPngFile(printerUrl, './name-tag-small.png', {landscape: false});
+brother.printPngFile(printerUrl, './sample-image.png', {landscape: false});
 ```
 
-See the [samples](./samples/) folder for further details.
+See the [samples](https://github.com/driehle/node-brother-label-printer/tree/master/samples) folder for further details.
 
 ## Considerations
 
