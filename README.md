@@ -2,7 +2,8 @@
 
 A node.js library to print labels on a Brother label printer using the [Internet Printing Protocol (IPP)](https://en.wikipedia.org/wiki/Internet_Printing_Protocol).
 
-**Please note:** This library is considered a proof-of-concept and is neither actively maintained nor further developed.
+> ### :warning: Library abandoned
+> **Please note:** This library is considered a proof-of-concept and is neither actively maintained nor further developed.
 
 ## How to print a PNG file
 
